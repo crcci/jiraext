@@ -1,0 +1,96 @@
+{
+  "failed_test_cases": [
+    {
+      "name": "User should not be logged-in with invalid credentials",
+      "attachments": [
+        {
+          "path": "../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/video.webm"
+        },
+        {
+          "path": "../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/test-failed-1.png"
+        },
+        {
+          "path": "../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/trace.zip"
+        },
+        {
+          "path": "../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/video.webm"
+        },
+        {
+          "path": "../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/test-failed-1.png"
+        },
+        {
+          "path": "../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/trace.zip"
+        }
+      ]
+    },
+    {
+      "name": "User should be able to log-in with valid credentials",
+      "attachments": [
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/video.webm"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/test-failed-1.png"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/trace.zip"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/video.webm"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/test-failed-1.png"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/trace.zip"
+        }
+      ]
+    },
+    {
+      "name": "Logged-in user should be able to navigato recipient page",
+      "attachments": [
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/video.webm"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/test-failed-1.png"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/trace.zip"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/video.webm"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/test-failed-1.png"
+        },
+        {
+          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/trace.zip"
+        }
+      ]
+    },
+    {
+      "name": "env link",
+      "attachments": [
+        {
+          "path": "../test-results/merchant-check-env-link-chromium/video.webm"
+        },
+        {
+          "path": "../test-results/merchant-check-env-link-chromium/test-failed-1.png"
+        },
+        {
+          "path": "../test-results/merchant-check-env-link-chromium/trace.zip"
+        },
+        {
+          "path": "../test-results/merchant-check-env-link-chromium-retry1/video.webm"
+        },
+        {
+          "path": "../test-results/merchant-check-env-link-chromium-retry1/test-failed-1.png"
+        },
+        {
+          "path": "../test-results/merchant-check-env-link-chromium-retry1/trace.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -29,51 +29,6 @@
           "path": "../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/trace.zip"
         }
       ]
-    },
-    {
-      "test_id": "Unknown",
-      "name": "User should be able to log-in with valid credentials",
-      "attachments": [
-        {
-          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/video.webm"
-        },
-        {
-          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/test-failed-1.png"
-        },
-        {
-          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/trace.zip"
-        }
-      ]
-    },
-    {
-      "test_id": "Unknown",
-      "name": "Logged-in user should be able to navigato recipient page",
-      "attachments": [
-        {
-          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/video.webm"
-        },
-        {
-          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/test-failed-1.png"
-        },
-        {
-          "path": "../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/trace.zip"
-        }
-      ]
-    },
-    {
-      "test_id": "Unknown",
-      "name": "env link",
-      "attachments": [
-        {
-          "path": "../test-results/merchant-check-env-link-chromium-retry1/video.webm"
-        },
-        {
-          "path": "../test-results/merchant-check-env-link-chromium-retry1/test-failed-1.png"
-        },
-        {
-          "path": "../test-results/merchant-check-env-link-chromium-retry1/trace.zip"
-        }
-      ]
     }
   ]
 }

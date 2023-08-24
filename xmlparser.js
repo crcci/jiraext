@@ -19,8 +19,9 @@ parseString(xmlData, function(err, result) {
         for (const testcase of testsuite.testcase) {
           if (testcase.failure && testcase['system-out']) {
             const testName = extractTestName(testcase.$.name);
+            const testId = extractTestId(testName);
 
-            if (!failedTestCases.has(testName)) {
+            if (!failedTestCases.has(testId)) {
               const attachments = [];
 
               const cdataContent = testcase['system-out'][0];
@@ -41,8 +42,7 @@ parseString(xmlData, function(err, result) {
               }
 
               if (attachments.length > 0) { // Only add to map if there are attachments
-                const testId = extractTestId(testName);
-                failedTestCases.set(testName, { test_id: testId, name: testName, attachments: attachments });
+                failedTestCases.set(testId, { test_id: testId, name: testName, attachments: attachments });
               }
             }
           }

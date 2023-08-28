@@ -87,7 +87,7 @@
   </testsuite>
   <testsuite name="api/apimerchant_login.spec.ts" timestamp="2023-08-23T16:10:55.088Z"
     hostname="chromium" tests="2" failures="1" skipped="1" time="0.004" errors="0">
-    <testcase name="Login with api and navigate to other pages @api"
+    <testcase name="Test-ID:0002 Login with api and navigate to other pages @api"
       classname="api/apimerchant_login.spec.ts" time="0.004">
       <failure
         message="apimerchant_login.spec.ts:27:5 Login with api and navigate to other pages @api"
@@ -138,15 +138,11 @@
 ]]>
 </failure>
     </testcase>
-    <testcase name="recipient page test @api" classname="api/apimerchant_login.spec.ts" time="0">
-      <skipped>
-</skipped>
-    </testcase>
   </testsuite>
   <testsuite name="merchant/merchantLogin.spec.ts" timestamp="2023-08-23T16:10:55.088Z"
     hostname="chromium" tests="3" failures="2" skipped="0" time="63.731" errors="0">
     <testcase
-      name="Merchant Portal valid-invalid login cases › AUser should be able to log-in with valid credentials @smoke @regression"
+      name="Merchant Portal valid-invalid login cases › Test-ID:0004 User should be able to log-in with valid credentials @smoke @regression"
       classname="merchant/merchantLogin.spec.ts" time="60.002">
       <failure
         message="merchantLogin.spec.ts:19:9 User should be able to log-in with valid credentials @smoke @regression"
@@ -245,6 +241,63 @@
 [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/trace.zip]]
 ]]>
 </system-out>
+    </testcase>
+
+    <testcase name="Test-ID:0003 should create a bug report" classname="api-tests.spec.js"
+      time="0.092">
+      <failure message="api-tests.spec.js:6:5 should create a bug report" type="FAILURE">
+    <![CDATA[  [chromium] › api-tests.spec.js:6:5 › should create a bug report ──────────────────────────────────
+    
+        TypeError: apiRequestContext.post: Invalid URL
+    
+           5 |
+           6 | test('should create a bug report', async ({ request }) => {
+        >  7 |     const newIssue = await request.post(`/repos/${USER}/${REPO}/issues`, {
+             |                                    ^
+           8 |       data: {
+           9 |         title: '[Bug] report 1',
+          10 |         body: 'Bug description',
+    
+            at /Users/un/Desktop/Projects/Mohammed/m_pw/tests/api-tests.spec.js:7:36
+    
+        attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+        test-results/api-tests-should-create-a-bug-report-chromium/trace.zip
+        Usage:
+    
+            npx playwright show-trace test-results/api-tests-should-create-a-bug-report-chromium/trace.zip
+    
+        ────────────────────────────────────────────────────────────────────────────────────────────────
+    
+        Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+    
+        TypeError: apiRequestContext.post: Invalid URL
+    
+           5 |
+           6 | test('should create a bug report', async ({ request }) => {
+        >  7 |     const newIssue = await request.post(`/repos/${USER}/${REPO}/issues`, {
+             |                                    ^
+           8 |       data: {
+           9 |         title: '[Bug] report 1',
+          10 |         body: 'Bug description',
+    
+            at /Users/un/Desktop/Projects/Mohammed/m_pw/tests/api-tests.spec.js:7:36
+    
+        attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+        test-results/api-tests-should-create-a-bug-report-chromium-retry1/trace.zip
+        Usage:
+    
+            npx playwright show-trace test-results/api-tests-should-create-a-bug-report-chromium-retry1/trace.zip
+    
+        ────────────────────────────────────────────────────────────────────────────────────────────────
+    ]]>
+    </failure>
+      <system-out>
+    <![CDATA[
+    [[ATTACHMENT|../test-results/api-tests-should-create-a-bug-report-chromium/trace.zip]]
+    
+    [[ATTACHMENT|../test-results/api-tests-should-create-a-bug-report-chromium-retry1/trace.zip]]
+    ]]>
+    </system-out>
     </testcase>
   </testsuite>
 </testsuites>

@@ -16,8 +16,13 @@
       ]
     },
     {
-      "test_id": "Unknown",
-      "name": "AUser should be able to log-in with valid credentials",
+      "test_id": "0002",
+      "name": "Login with api and navigate to other pages @api",
+      "attachments": []
+    },
+    {
+      "test_id": "0004",
+      "name": "User should be able to log-in with valid credentials",
       "attachments": [
         {
           "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/video.webm"
@@ -27,6 +32,15 @@
         },
         {
           "path": "../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/trace.zip"
+        }
+      ]
+    },
+    {
+      "test_id": "0003",
+      "name": "should create a bug report",
+      "attachments": [
+        {
+          "path": "../test-results/api-tests-should-create-a-bug-report-chromium-retry1/trace.zip"
         }
       ]
     }

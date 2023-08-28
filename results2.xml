@@ -1,0 +1,299 @@
+<testsuites id="" name="" tests="12" failures="5" skipped="2" errors="0" time="82.86093199999999">
+    <testsuite name="admin/admin.spec.ts" timestamp="2023-08-23T16:10:55.088Z" hostname="chromium"
+        tests="2" failures="1" skipped="1" time="0.415" errors="0">
+        <testcase
+            name="Admin Portal Login Test Cases › User should not be logged-in with invalid credentials  @admin @smoke"
+            classname="admin/admin.spec.ts" time="0.415">
+            <failure
+                message="admin.spec.ts:15:9 User should not be logged-in with invalid credentials  @admin @smoke"
+                type="FAILURE">
+    <![CDATA[  [chromium] › admin/admin.spec.ts:15:9 › Admin Portal Login Test Cases › User should not be logged-in with invalid credentials  @admin @smoke 
+    
+        ReferenceError: ADMIN_HOME is not defined
+    
+          10 |     
+          11 |     test.beforeEach(async ({adminLoginPage})=> {
+        > 12 |         await adminLoginPage.goto(ADMIN_HOME);
+             |                                   ^
+          13 |     })
+          14 |
+          15 |     test("User should not be logged-in with invalid credentials  @admin @smoke", async ({adminLoginPage})=> {
+    
+            at /Users/ugur.nurcan/Desktop/Projects/QA_Platform/tests/admin/admin.spec.ts:12:35
+    
+        attachment #1: video (video/webm) ──────────────────────────────────────────────────────────
+        test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/video.webm
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────
+        test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/test-failed-1.png
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #3: trace (application/zip) ─────────────────────────────────────────────────────
+        test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/trace.zip
+        Usage:
+    
+            npx playwright show-trace test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/trace.zip
+    
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        Retry #1 ───────────────────────────────────────────────────────────────────────────────────
+    
+        ReferenceError: ADMIN_HOME is not defined
+    
+          10 |     
+          11 |     test.beforeEach(async ({adminLoginPage})=> {
+        > 12 |         await adminLoginPage.goto(ADMIN_HOME);
+             |                                   ^
+          13 |     })
+          14 |
+          15 |     test("User should not be logged-in with invalid credentials  @admin @smoke", async ({adminLoginPage})=> {
+    
+            at /Users/ugur.nurcan/Desktop/Projects/QA_Platform/tests/admin/admin.spec.ts:12:35
+    
+        attachment #1: video (video/webm) ──────────────────────────────────────────────────────────
+        test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/video.webm
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────
+        test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/test-failed-1.png
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #3: trace (application/zip) ─────────────────────────────────────────────────────
+        test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/trace.zip
+        Usage:
+    
+            npx playwright show-trace test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/trace.zip
+    
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    ]]>
+    </failure>
+            <system-out>
+    <![CDATA[
+    [[ATTACHMENT|../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/video.webm]]
+    
+    [[ATTACHMENT|../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/test-failed-1.png]]
+    
+    [[ATTACHMENT|../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium/trace.zip]]
+    
+    [[ATTACHMENT|../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/video.webm]]
+    
+    [[ATTACHMENT|../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/test-failed-1.png]]
+    
+    [[ATTACHMENT|../test-results/admin-admin-Admin-Portal-Login-Test-Cases-User-04af9--logged-in-with-invalid-credentials-admin-smoke-chromium-retry1/trace.zip]]
+    ]]>
+    </system-out>
+        </testcase>
+
+    </testsuite>
+    <testsuite name="api/apimerchant_login.spec.ts" timestamp="2023-08-23T16:10:55.088Z"
+        hostname="chromium" tests="2" failures="1" skipped="1" time="0.004" errors="0">
+    </testsuite>
+    <testsuite name="merchant/merchantLogin.spec.ts" timestamp="2023-08-23T16:10:55.088Z"
+        hostname="chromium" tests="3" failures="2" skipped="0" time="63.731" errors="0">
+        <testcase
+            name="Merchant Portal valid-invalid login cases › User should not be logged-in with invalid credentials @smoke @regression"
+            classname="merchant/merchantLogin.spec.ts" time="3.306">
+        </testcase>
+        <testcase
+            name="Merchant Portal valid-invalid login cases › User should be able to log-in with valid credentials @smoke @regression"
+            classname="merchant/merchantLogin.spec.ts" time="60.002">
+            <failure
+                message="merchantLogin.spec.ts:19:9 User should be able to log-in with valid credentials @smoke @regression"
+                type="FAILURE">
+    <![CDATA[  [chromium] › merchant/merchantLogin.spec.ts:19:9 › Merchant Portal valid-invalid login cases › User should be able to log-in with valid credentials @smoke @regression 
+    
+        Test timeout of 30000ms exceeded.
+    
+        Error: locator.click: Page closed
+        =========================== logs ===========================
+        waiting for getByRole('link', { name: 'Recipients' })
+        ============================================================
+    
+          20 |         await merchantLoginPage.goto(MERCHANT_HOME_BASEURL, merchantLoginPage.pageUrl);
+          21 |         await merchantLoginPage.login(merchant2_username, merchant2_password);
+        > 22 |         await merchantLoginPage.page.getByRole('link', { name: 'Recipients' }).click();
+             |                                                                                ^
+          23 |         // await merchantLoginPage.goto(MERCHANT_HOME_BASEURL, "/recipients");
+          24 |         await expect(merchantLoginPage.page).toHaveURL(/.*recipientsrererer/);
+          25 |     })
+    
+            at /Users/ugur.nurcan/Desktop/Projects/QA_Platform/tests/merchant/merchantLogin.spec.ts:22:80
+    
+        Pending operations:
+          - locator.click at tests/merchant/merchantLogin.spec.ts:22:80
+    
+    
+        attachment #1: video (video/webm) ──────────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/video.webm
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/test-failed-1.png
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #3: trace (application/zip) ─────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/trace.zip
+        Usage:
+    
+            npx playwright show-trace test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/trace.zip
+    
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        Retry #1 ───────────────────────────────────────────────────────────────────────────────────
+    
+        Test timeout of 30000ms exceeded.
+    
+        Error: locator.click: Page closed
+        =========================== logs ===========================
+        waiting for getByRole('link', { name: 'Recipients' })
+        ============================================================
+    
+          20 |         await merchantLoginPage.goto(MERCHANT_HOME_BASEURL, merchantLoginPage.pageUrl);
+          21 |         await merchantLoginPage.login(merchant2_username, merchant2_password);
+        > 22 |         await merchantLoginPage.page.getByRole('link', { name: 'Recipients' }).click();
+             |                                                                                ^
+          23 |         // await merchantLoginPage.goto(MERCHANT_HOME_BASEURL, "/recipients");
+          24 |         await expect(merchantLoginPage.page).toHaveURL(/.*recipientsrererer/);
+          25 |     })
+    
+            at /Users/ugur.nurcan/Desktop/Projects/QA_Platform/tests/merchant/merchantLogin.spec.ts:22:80
+    
+        Pending operations:
+          - locator.click at tests/merchant/merchantLogin.spec.ts:22:80
+    
+    
+        attachment #1: video (video/webm) ──────────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/video.webm
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/test-failed-1.png
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #3: trace (application/zip) ─────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/trace.zip
+        Usage:
+    
+            npx playwright show-trace test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/trace.zip
+    
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    ]]>
+    </failure>
+            <system-out>
+    <![CDATA[
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/video.webm]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/test-failed-1.png]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium/trace.zip]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/video.webm]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/test-failed-1.png]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-valid-i-517c2--log-in-with-valid-credentials-smoke-regression-chromium-retry1/trace.zip]]
+    ]]>
+    </system-out>
+        </testcase>
+        <testcase
+            name="Merchant Portal logged-in user test cases › Logged-in user should be able to navigato recipient page @regression"
+            classname="merchant/merchantLogin.spec.ts" time="0.423">
+            <failure
+                message="merchantLogin.spec.ts:44:9 Logged-in user should be able to navigato recipient page @regression"
+                type="FAILURE">
+    <![CDATA[  [chromium] › merchant/merchantLogin.spec.ts:44:9 › Merchant Portal logged-in user test cases › Logged-in user should be able to navigato recipient page @regression 
+    
+        Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:9000/payments/
+        =========================== logs ===========================
+        navigating to "http://localhost:9000/payments/", waiting until "load"
+        ============================================================
+    
+           at ../framework/pages/merchant/MerchantLoginPage.ts:22
+    
+          20 |
+          21 |     async goto(merchantHome:string, pageUrl?:string) {
+        > 22 |         await this.page.goto(`${merchantHome}${pageUrl || '/'}`);
+             |                         ^
+          23 |     }
+          24 |
+          25 |     async clickElement() {
+    
+            at MerchantLoginPage.goto (/Users/ugur.nurcan/Desktop/Projects/QA_Platform/framework/pages/merchant/MerchantLoginPage.ts:22:25)
+            at /Users/ugur.nurcan/Desktop/Projects/QA_Platform/tests/merchant/merchantLogin.spec.ts:40:33
+    
+        attachment #1: video (video/webm) ──────────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/video.webm
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/test-failed-1.png
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #3: trace (application/zip) ─────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/trace.zip
+        Usage:
+    
+            npx playwright show-trace test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/trace.zip
+    
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        Retry #1 ───────────────────────────────────────────────────────────────────────────────────
+    
+        Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:9000/payments/
+        =========================== logs ===========================
+        navigating to "http://localhost:9000/payments/", waiting until "load"
+        ============================================================
+    
+           at ../framework/pages/merchant/MerchantLoginPage.ts:22
+    
+          20 |
+          21 |     async goto(merchantHome:string, pageUrl?:string) {
+        > 22 |         await this.page.goto(`${merchantHome}${pageUrl || '/'}`);
+             |                         ^
+          23 |     }
+          24 |
+          25 |     async clickElement() {
+    
+            at MerchantLoginPage.goto (/Users/ugur.nurcan/Desktop/Projects/QA_Platform/framework/pages/merchant/MerchantLoginPage.ts:22:25)
+            at /Users/ugur.nurcan/Desktop/Projects/QA_Platform/tests/merchant/merchantLogin.spec.ts:40:33
+    
+        attachment #1: video (video/webm) ──────────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/video.webm
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/test-failed-1.png
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    
+        attachment #3: trace (application/zip) ─────────────────────────────────────────────────────
+        test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/trace.zip
+        Usage:
+    
+            npx playwright show-trace test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/trace.zip
+    
+        ────────────────────────────────────────────────────────────────────────────────────────────
+    ]]>
+    </failure>
+            <system-out>
+    <![CDATA[
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/video.webm]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/test-failed-1.png]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium/trace.zip]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/video.webm]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/test-failed-1.png]]
+    
+    [[ATTACHMENT|../test-results/merchant-merchantLogin-Merchant-Portal-logged--bac61-d-be-able-to-navigato-recipient-page-regression-chromium-retry1/trace.zip]]
+    ]]>
+    </system-out>
+        </testcase>
+    </testsuite>
+    <testsuite name="merchant-check.spec.ts" timestamp="2023-08-23T16:10:55.088Z"
+        hostname="chromium" tests="2" failures="1" skipped="0" time="1.062" errors="0">
+
+    </testsuite>
+</testsuites>

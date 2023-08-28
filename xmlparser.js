@@ -17,7 +17,7 @@ parseString(xmlData, function(err, result) {
       for (const testsuite of testSuites) {
         if (testsuite.testcase) {
           for (const testcase of testsuite.testcase) {
-            if (testcase.failure && testcase['system-out']) {
+            if (testcase.failure || testcase['system-out']) { // Modified condition to check for either failure or system-out
               let testName = extractTestName(testcase.$.name);
               console.log('Test name:', testName); // Debugging statement
               const testId = extractTestId(testName);
@@ -26,7 +26,7 @@ parseString(xmlData, function(err, result) {
   
               const attachments = [];
   
-              const cdataContent = testcase['system-out'][0];
+              const cdataContent = testcase['system-out'] ? testcase['system-out'][0] : null; // Added check for existence of system-out element
   
               if (cdataContent) {
                 const attachmentPaths = cdataContent.match(/\[\[ATTACHMENT\|(.*?)]]/g);
@@ -62,7 +62,6 @@ function extractTestName(fullName) {
     const matches = fullName.match(/›\s*([^@]+)\s*@/);
     return matches ? matches[1].trim() : fullName;
 }
-  
 
 function extractTestId(testName) {
   console.log('Extracting test ID from:', testName); // Debugging statement
